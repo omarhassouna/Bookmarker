@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    color: white;
+    background-color: rgb(17, 103, 196);
+    border: solid rgb(17, 103, 196);
+}
+.btn:hover{
+    background-color: rgb(4, 59, 117);
+    box-shadow: 5px 5px 5px grey;
+    color: white;
+    border: solid rgb(4, 59, 117);
+}
+.delBtn{
+    background-color: rgb(213, 7, 7);
+    border: solid rgb(213, 7, 7);
+
+}
+.delBtn:hover{
+    background-color: rgb(141, 7, 7);
+    border: solid rgb(141, 7, 7);
+}
+#grad {
+    background-image: linear-gradient(#adb5bd , white);
+  }
